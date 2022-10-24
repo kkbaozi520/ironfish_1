@@ -2,7 +2,7 @@
 count=0
 while [ true ]
 do
-         count_1=$(expr $count % 72)
+         count_1=$(expr $count % 48)
          if [ "$count_1" -eq 0 ]
          then  
                sudo mv /data/ironfish/.ironfish/config.json /home/ubuntu
